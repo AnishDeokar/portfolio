@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anish Yogesh Deokar | Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Anish Yogesh Deokar</h1>
+    <h2>Data Analyst | Business Intelligence Enthusiast</h2>
+    <p>Turning data into actionable insights through analytics and visualization.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn primary">View Portfolio</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="photo.jpg" alt="Anish Yogesh Deokar">
+  </div>
+</section>
+
+<section class="section">
+  <h3>About Me</h3>
+  <p>
+    MCA student specializing in Data Analytics with strong skills in Power BI, SQL,
+    Python, and Excel. Passionate about dashboards and data-driven decision making.
+  </p>
+  <p><strong>Achievement:</strong> 3rd Position at District Level in Skating.</p>
+</section>
+
+<section class="section bg-light">
+  <h3>Education</h3>
+  <p><strong>MCA</strong> – MES IMCC College, Pune (2023–2025) | CGPA: 7.70</p>
+  <p><strong>BCA</strong> – MES Senior College, Pune (2020–2023) | CGPA: 8.25</p>
+</section>
+
+<section class="section" id="projects">
+  <h3>Projects</h3>
+  <p>Sales & Business Performance Dashboard (Power BI)</p>
+  <p>COVID-19 Data Analysis Dashboard (Power BI)</p>
+</section>
+
+<section class="section" id="contact">
+  <h3>Contact</h3>
+  <p>Email: anishdeokar00@gmail.com</p>
+  <p>Phone: +91 9579382956</p>
+  <p>Pune, Maharashtra, India</p>
+</section>
+
+<footer>
+  © 2025 Anish Yogesh Deokar
+</footer>
+
+</body>
+</html>

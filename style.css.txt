@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: #f0f4ff;
+}
+
+.hero-img img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 10px 18px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+.section {
+  padding: 40px 60px;
+}
+
+.bg-light {
+  background: #f9fafb;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111827;
+  color: white;
+}
