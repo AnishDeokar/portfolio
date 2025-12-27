@@ -1,60 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Anish Yogesh Deokar | Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Anish.</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="btn-nav">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-text">
-    <h1>Anish Yogesh Deokar</h1>
+  <div class="hero-content">
+    <h1>Hello, I’m<br><span>Anish Yogesh Deokar</span></h1>
     <h2>Data Analyst | Business Intelligence Enthusiast</h2>
-    <p>Turning data into actionable insights through analytics and visualization.</p>
-    <div class="btn-group">
-      <a href="#projects" class="btn primary">View Portfolio</a>
-      <a href="#contact" class="btn secondary">Contact Me</a>
+    <p>
+      Turning data into actionable insights through analytics,
+      dashboards, and visualization.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-primary">View Portfolio</a>
+      <a href="#contact" class="btn-secondary">Contact Me</a>
     </div>
   </div>
 
-  <div class="hero-img">
+  <div class="hero-image">
     <img src="photo.jpg" alt="Anish Yogesh Deokar">
   </div>
 </section>
 
+<!-- SERVICES -->
 <section class="section">
-  <h3>About Me</h3>
-  <p>
-    MCA student specializing in Data Analytics with strong skills in Power BI, SQL,
-    Python, and Excel. Passionate about dashboards and data-driven decision making.
-  </p>
-  <p><strong>Achievement:</strong> 3rd Position at District Level in Skating.</p>
+  <h3 class="section-title">Expertise Services</h3>
+  <div class="services">
+    <div class="service-card active">
+      <h4>Data Analytics</h4>
+      <p>Trend analysis, KPI tracking, actionable insights.</p>
+    </div>
+    <div class="service-card">
+      <h4>Power BI Dashboards</h4>
+      <p>Interactive dashboards with DAX & drill-throughs.</p>
+    </div>
+    <div class="service-card">
+      <h4>SQL Optimization</h4>
+      <p>Efficient queries, joins, CTEs & performance tuning.</p>
+    </div>
+  </div>
 </section>
 
-<section class="section bg-light">
-  <h3>Education</h3>
-  <p><strong>MCA</strong> – MES IMCC College, Pune (2023–2025) | CGPA: 7.70</p>
-  <p><strong>BCA</strong> – MES Senior College, Pune (2020–2023) | CGPA: 8.25</p>
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-image">
+    <img src="photo.jpg" alt="About Anish">
+  </div>
+  <div class="about-content">
+    <h3>Designing Insights, Not Just Reports</h3>
+    <p>
+      MCA student specializing in Data Analytics with strong hands-on
+      experience in Power BI, SQL, Python, and Excel.
+    </p>
+    <ul>
+      <li>✔ Data cleaning & modeling</li>
+      <li>✔ Business-focused dashboards</li>
+      <li>✔ 3rd Position – District Level Skating</li>
+    </ul>
+  </div>
 </section>
 
+<!-- SKILLS -->
+<section class="section light" id="skills">
+  <h3 class="section-title">My Skills</h3>
+  <div class="skills-grid">
+    <div class="skill-box">Power BI & DAX</div>
+    <div class="skill-box">SQL & Databases</div>
+    <div class="skill-box">Python (Pandas, NumPy)</div>
+    <div class="skill-box">Data Cleaning & EDA</div>
+    <div class="skill-box">KPI & Business Insights</div>
+    <div class="skill-box">Dashboard Optimization</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
 <section class="section" id="projects">
-  <h3>Projects</h3>
-  <p>Sales & Business Performance Dashboard (Power BI)</p>
-  <p>COVID-19 Data Analysis Dashboard (Power BI)</p>
+  <h3 class="section-title">Digital Product Showcases</h3>
+  <div class="projects">
+    <div class="project-card">
+      <h4>Sales Performance Dashboard</h4>
+      <p>Power BI | KPIs | Drill-downs | DAX</p>
+    </div>
+    <div class="project-card">
+      <h4>COVID-19 Analysis Dashboard</h4>
+      <p>Time-series | Modeling | Insights</p>
+    </div>
+  </div>
 </section>
 
-<section class="section" id="contact">
-  <h3>Contact</h3>
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h3>Got a Project? Let’s Talk</h3>
   <p>Email: anishdeokar00@gmail.com</p>
   <p>Phone: +91 9579382956</p>
-  <p>Pune, Maharashtra, India</p>
+  <a href="mailto:anishdeokar00@gmail.com" class="btn-primary">Contact Me</a>
 </section>
 
 <footer>
-  © 2025 Anish Yogesh Deokar
+  © 2025 Anish Yogesh Deokar | Data Analytics Portfolio
 </footer>
 
 </body>
 </html>
+
